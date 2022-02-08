@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 12px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f5f5;
+}
+.logo {
+  width: 150px;
+  height: 50px;
+}
+.logo img{
+  width: 100%;
+  height: 100%;
+ 
+}
+nav button {
+  border: 1px solid #555;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background: transparent;
+}
+nav a{
+  text-decoration: none;
+  margin: 0 12px;
+  color: #000000cc;
+}
+
+h1 {
+  
+  font-size: 42px;
+}
+h3 {
+ 
+  font-size: 25px;
+}
+div button {
+  border: 1px solid#555;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background: transparent;
+}
+.content {
+  padding: 56px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-content {
+  margin-right: 24px;
+}
+.hero-content h1,
+.hero-content h3 {
+  margin-bottom: 18px;
+}
+.hero {
+  width: 50px;
+}
+.hero-img {
+  width: 100%;
+}
+
+.hero-content1 {
+  margin-left: 24px;
+}
+/* Bussiness section */
+
+.bussiness {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px 48px;
+}
+.bussiness-card {
+  width: 30%;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.5);
+}
+.bussiness-card img {
+  width: 90%;
+  margin-bottom: 12px;
+}
+.bussiness-card h3 {
+  margin-bottom: 12px;
+}
+
+.heroimage{
+  width: 50%;
+}
+.heroimage img{
+  width: 100%;
+}
+
+.image-creation{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px;
+  width: 100%;
+  padding: 12px 48px;
+}
+.image-creation .img-wrap {
+  width: 30%;
+  height: 360px;
+  margin: 10px;
+  box-shadow: 0px 0px 20px -8px black;
+}
+
+.image-creation .img-wrap img{
+  width: 100%;
+  height: 100%;
+}

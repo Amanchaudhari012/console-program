@@ -1,0 +1,50 @@
+@media only screen and (max-width: 748px) {
+    body {
+      background-color: lightblue;
+    }
+    header{
+        flex-direction: column;
+        padding: 24px;
+    }
+    nav button {
+        margin: 7px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .hero {
+        width: 100%;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .content .image{
+        order: -1;
+    }
+    div button{
+        margin-bottom: 7px;
+    }
+    .hero-content {
+        margin-right: 0;
+    }
+    .content {
+        padding: 24px 48px;
+    }
+    .bussiness{
+        flex-direction: column;
+    }
+    .bussiness-card {
+        width: 100%;
+        margin-bottom: 30px;
+        border: 2px solid rgb(85, 80, 80);
+    }
+    .image-creation .img-wrap{
+        width: 100%;   
+    }
+    .image-creation{
+        margin: 0px;
+    }
+}
